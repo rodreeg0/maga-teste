@@ -4,8 +4,8 @@
 
 Antes de começar, você precisará ter os seguintes softwares instalados em sua máquina:
 
-<a href="https://www.apachefriends.org/download.html"><img alt="XAMPP" src="https://img.shields.io/badge/XAMPP-7.4.24-blueviolet?logo=xampp&logoColor=white"></a> ou outro servidor web compatível com PHP.
-<a href="https://getcomposer.org/download/"><img alt="Composer" src="https://img.shields.io/badge/Composer-2.2.1-yellow?logo=composer&logoColor=white"></a> para gerenciamento de dependências.
+- <a href="https://www.apachefriends.org/download.html"><img alt="XAMPP" src="https://img.shields.io/badge/XAMPP-7.4.24-blueviolet?logo=xampp&logoColor=white"></a> ou outro servidor web compatível com PHP.
+- <a href="https://getcomposer.org/download/"><img alt="Composer" src="https://img.shields.io/badge/Composer-2.2.1-yellow?logo=composer&logoColor=white"></a> para gerenciamento de dependências.
 
 ## Instalação
 
