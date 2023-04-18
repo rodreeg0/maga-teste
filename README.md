@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 | [3.0.x][3.0] | [2.14.x][2.14] | [2.13.x][2.13] |
 |:----------------:|:----------------:|:----------:|
 | [![Build status][3.0 image]][3.0] | [![Build status][2.14 image]][2.14] | [![Build status][2.13 image]][2.13] |
@@ -30,3 +31,6 @@ without requiring unnecessary code duplication.
   [2.13]: https://github.com/doctrine/orm/tree/2.13.x
   [2.13 coverage image]: https://codecov.io/gh/doctrine/orm/branch/2.13.x/graph/badge.svg
   [2.13 coverage]: https://codecov.io/gh/doctrine/orm/branch/2.13.x
+=======
+# maga-teste
+>>>>>>> e01d0b681e97859bfa27658fafda5d7a1d9094f0
