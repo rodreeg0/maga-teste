@@ -1,36 +1,29 @@
-<<<<<<< HEAD
-| [3.0.x][3.0] | [2.14.x][2.14] | [2.13.x][2.13] |
-|:----------------:|:----------------:|:----------:|
-| [![Build status][3.0 image]][3.0] | [![Build status][2.14 image]][2.14] | [![Build status][2.13 image]][2.13] |
-| [![Coverage Status][3.0 coverage image]][3.0 coverage]| [![Coverage Status][2.14 coverage image]][2.14 coverage] | [![Coverage Status][2.13 coverage image]][2.13 coverage]  |
+# Magazord - Teste de estágio
 
-[<h1 align="center">🇺🇦 UKRAINE NEEDS YOUR HELP NOW!</h1>](https://www.doctrine-project.org/stop-war.html)
+## Requisitos
 
-Doctrine ORM is an object-relational mapper for PHP 7.1+ that provides transparent persistence
-for PHP objects. It sits on top of a powerful database abstraction layer (DBAL). One of its key features
-is the option to write database queries in a proprietary object oriented SQL dialect called Doctrine Query Language (DQL),
-inspired by Hibernate's HQL. This provides developers with a powerful alternative to SQL that maintains flexibility
-without requiring unnecessary code duplication.
+Antes de começar, você precisará ter os seguintes softwares instalados em sua máquina:
 
+- [XAMPP](https://www.apachefriends.org/download.html) ou outro servidor web compatível com PHP.
+- [Composer](https://getcomposer.org/download/) para gerenciamento de dependências.
 
-## More resources:
+## Instalação
 
-* [Website](http://www.doctrine-project.org)
-* [Documentation](https://www.doctrine-project.org/projects/doctrine-orm/en/stable/index.html)
+Para instalar o XAMPP, siga as instruções no site oficial e escolha a versão apropriada para o seu sistema operacional. Depois de instalar o XAMPP, inicie o servidor Apache e o servidor MySQL.
 
+Em seguida, siga estas etapas para instalar e executar o Meu Incrível Projeto PHP:
 
-  [3.0 image]: https://github.com/doctrine/orm/actions/workflows/continuous-integration.yml/badge.svg?branch=3.0.x
-  [3.0]: https://github.com/doctrine/orm/tree/3.0.x
-  [3.0 coverage image]: https://codecov.io/gh/doctrine/orm/branch/3.0.x/graph/badge.svg
-  [3.0 coverage]: https://codecov.io/gh/doctrine/orm/branch/3.0.x
-  [2.14 image]: https://github.com/doctrine/orm/actions/workflows/continuous-integration.yml/badge.svg?branch=2.14.x
-  [2.14]: https://github.com/doctrine/orm/tree/2.14.x
-  [2.14 coverage image]: https://codecov.io/gh/doctrine/orm/branch/2.14.x/graph/badge.svg
-  [2.14 coverage]: https://codecov.io/gh/doctrine/orm/branch/2.14.x
-  [2.13 image]: https://github.com/doctrine/orm/actions/workflows/continuous-integration.yml/badge.svg?branch=2.13.x
-  [2.13]: https://github.com/doctrine/orm/tree/2.13.x
-  [2.13 coverage image]: https://codecov.io/gh/doctrine/orm/branch/2.13.x/graph/badge.svg
-  [2.13 coverage]: https://codecov.io/gh/doctrine/orm/branch/2.13.x
-=======
-# maga-teste
->>>>>>> e01d0b681e97859bfa27658fafda5d7a1d9094f0
+1. Baixe ou clone este repositório em seu computador.
+
+2. Abra o terminal e navegue até o diretório do projeto.
+
+3. Execute o comando `composer install` para instalar todas as dependências do projeto.
+
+4. Copie a pasta do projeto para a pasta "htdocs" do seu servidor web local. A pasta "htdocs" geralmente está localizada dentro do diretório do XAMPP.
+
+5. Abra um navegador da web e digite o endereço `http://localhost/maga-teste/src` para visualizar o projeto em seu servidor local.
+
+ ### 6. Observação: O código cria o banco de dados e suas respectivas tabelas automaticamente, mas é necessário que o usuário tenha um servidor MySQL configurado e uma conexão estabelecida com os mesmos parametros do arquivo db_conn_parameters.php localizado em 'src/Database/'.
+ ```usuário: root
+    senha: ''
+```
