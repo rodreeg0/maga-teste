@@ -23,7 +23,9 @@ Em seguida, siga estas etapas para instalar e executar o Meu Incrível Projeto P
 
 5. Abra um navegador da web e digite o endereço `http://localhost/maga-teste/src` para visualizar o projeto em seu servidor local.
 
- ### 6. Observação: O código cria o banco de dados e suas respectivas tabelas automaticamente, mas é necessário que o usuário tenha um servidor MySQL configurado e uma conexão estabelecida com os mesmos parametros do arquivo db_conn_parameters.php localizado em 'src/Database/'.
- ```usuário: root
-    senha: ''
+ #### 6. Observação: O código cria o banco de dados e suas respectivas tabelas automaticamente, mas é necessário que o usuário tenha um servidor MySQL configurado e uma conexão estabelecida com os mesmos parametros do arquivo `db_conn_parameters.php` localizado em `src/Database/`.
+
+ ```
+ usuário: root
+ senha: ''
 ```
