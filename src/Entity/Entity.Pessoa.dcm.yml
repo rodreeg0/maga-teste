@@ -1,0 +1,16 @@
+Entity\Pessoa:
+  type: entity
+  table: pessoas
+  id:
+    id:
+      type: integer
+      generator: { strategy: AUTO }
+  fields:
+    nome:
+      type: string
+    cpf:
+      type: string
+  oneToMany:
+    contatos:
+      targetEntity: Entity\Contato
+      mappedBy: pessoa

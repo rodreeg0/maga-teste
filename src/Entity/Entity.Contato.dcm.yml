@@ -1,0 +1,22 @@
+# File: contato.dcm.yml
+
+Entity\Contato:
+  type: entity
+  table: contatos
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    tipo:
+      type: string
+    descricao:
+      type: string
+  manyToOne:
+    pessoa:
+      targetEntity: Entity\Pessoa
+      inversedBy: contatos
+      joinColumn:
+        name: idPessoa
+        referencedColumnName: id
