@@ -488,14 +488,6 @@
         }
     });
 
-    // const toggleButton = document.getElementById('toggle-darkmode');
-    // toggleButton.addEventListener('click', () => {
-    //     document.body.classList.toggle('dark');
-    //     const buttonText = toggleButton.innerHTML;
-    //     toggleButton.innerHTML = buttonText === 'DarkMode' ? 'LightMode' : 'DarkMode';
-    // });
-
-
     function toggleForm(formId,toggleId) {
         var form = document.getElementById(formId);
         var toggleBtn = document.querySelector(toggleId);
@@ -513,9 +505,6 @@
         document.querySelector(".toggle-pessoaForm").addEventListener("click", function(){
             toggleForm('pessoaForm', '.toggle-pessoaForm');
         });
-        // document.querySelector(".toggle-contatoForm").addEventListener("click", function(){
-        //     toggleForm('contatoForm', '.toggle-contatoForm');
-        // });
     });
     
     
