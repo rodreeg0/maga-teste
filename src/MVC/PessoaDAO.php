@@ -1,7 +1,7 @@
 <?php
 
-namespace MVC\Pessoa;
-require_once __DIR__."\..\..\Database\db_connector.php";
+namespace MVC;
+require_once __DIR__."\..\Database\db_connector.php";
 
 use Doctrine\ORM\EntityManager;
 use Entity\Pessoa;

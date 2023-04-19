@@ -1,10 +1,9 @@
 <?php
-namespace MVC\Pessoa;
+namespace MVC;
 
-// require_once __DIR__."\..\..\Database\db_conn_parameters.php";
-require_once __DIR__."\..\..\Database\db_connector.php";
+require_once __DIR__."\..\Database\db_connector.php";
 require_once __DIR__ . '\PessoaDAO.php';
-use MVC\Pessoa\PessoaDAO;
+use MVC\PessoaDAO;
 
 class PessoaController {
 
@@ -29,6 +28,11 @@ class PessoaController {
         }
     }
 
+    public function getById($id)
+    {
+        return $this->pessoaDAO->getById($id);
+    }
+
     public function getByNome($nome) {
         $pessoas = $this->pessoaDAO->getByNome($nome);
         return $pessoas;
@@ -41,7 +45,7 @@ class PessoaController {
 
     public function update() {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-            $id = $_POST['id'];
+            $id = $_POST['idPessoa'];
             $nome = $_POST['nome'];
             $cpf = $_POST['cpf'];
 
@@ -53,8 +57,8 @@ class PessoaController {
         }
     }
 
-    public function delete() {
-        $id = $_GET['id'];
+    public function delete($id) {
+        
         $this->pessoaDAO->delete($id);
     }
 }
